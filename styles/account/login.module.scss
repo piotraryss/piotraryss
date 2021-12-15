@@ -1,0 +1,9 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--vct-gap);
+
+    .fieldError {
+        color: rgb(var(--vct-clr-red));
+    }
+}
